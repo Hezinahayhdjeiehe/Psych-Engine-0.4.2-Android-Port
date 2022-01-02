@@ -83,6 +83,7 @@ class ChartingState extends MusicBeatState
 		['Image Flash', " Value 1: its the name of the image\nValue 2: is how long it's there for"], 
 		['flipUI', " Value 1: Rotates the screen 180 degrees\nValue2: nothing"], 
 		['bgchange',"Value 1: Name of the image\nValue2: the sprites tag"]
+		['drain', "Value1: How much health, half health is 1."]
 	];
 
 	var _file:FileReference;

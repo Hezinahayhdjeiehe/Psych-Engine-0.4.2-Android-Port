@@ -58,7 +58,8 @@ class ChartingState extends MusicBeatState
 		'Hey!',
 		'Hurt Note',
 		'GF Sing',
-		'No Animation'
+		'No Animation', 
+		'instakill note'
 	];
 	private var noteTypeIntMap:Map<Int, String> = new Map<Int, String>();
 	private var noteTypeMap:Map<String, Null<Int>> = new Map<String, Null<Int>>();
@@ -78,7 +79,9 @@ class ChartingState extends MusicBeatState
 		['Alt Idle Animation', "Sets a speciied suffix after the idle animation name.\nYou can use this to trigger 'idle-alt' if you set\nValue 2 to -alt\n\nValue 1: Character to set (Dad, BF or GF)\nValue 2: New suffix (Leave it blank to disable)"],
 		['Screen Shake', "Value 1: Camera shake\nValue 2: HUD shake\n\nEvery value works as the following example: \"1, 0.05\".\nThe first number (1) is the duration.\nThe second number (0.05) is the intensity."],
 		['Change Character', "Value 1: Character to change (Dad, BF, GF)\nValue 2: New character's name"], 
-		['Image Flash', " Value 1: its the name of the image\nValue 2: is how long it's there for"]
+		['Image Flash', " Value 1: its the name of the image\nValue 2: is how long it's there for"], 
+		['flipUI', " Value 1: Rotates the screen 180 degrees\nValue2: nothing"], 
+		[bgchange', "Value 1: Name of the image\nValue2:the sprites tag"]
 	];
 
 	var _file:FileReference;

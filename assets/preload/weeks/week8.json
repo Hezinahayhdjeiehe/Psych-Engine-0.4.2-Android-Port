@@ -1,0 +1,22 @@
+{
+	"songs": [
+		["Example4", "dad", [146, 113, 253]],
+		["Example5", "dad", [146, 113, 253]],
+		["Example6", "dad", [146, 113, 253]]
+	],
+
+	"weekCharacters": [
+		"dad",
+		"bf",
+		"gf"
+	],
+	"weekBackground": "stage",
+
+	"storyName": "custom week",
+	"weekBefore": "tutorial",
+	"weekName": "Week 2",
+	"startUnlocked": true,
+
+	"hideStoryMode": false,
+	"hideFreeplay": false
+}

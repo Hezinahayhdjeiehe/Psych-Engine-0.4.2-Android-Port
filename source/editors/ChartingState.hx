@@ -88,7 +88,7 @@ class ChartingState extends MusicBeatState
 		['LinearSpin', "Value 1:  How long to tween for (in seconds)\nValue2: How big of a tween (in degrees)"], 
 		['LinearAlpha', "Value1: How long to tween for (in seconds)\nValue2: Target Transparency"], 
 		['Opponent Fade', "Value1: Duration (0 = Instant)\nValue2: Target transparency value"], 
-		["LinearAlphaBF', " Value1: How long to tween for (in seconds)\nValue2: Target Transparency"]
+		['LinearAlphaBF', " Value1: How long to tween for (in seconds)\nValue2: Target Transparency"]
 	];
 
 	var _file:FileReference;

@@ -86,7 +86,9 @@ class ChartingState extends MusicBeatState
 		['drain', "Value 1: How much health, half health is 1."], 
 		['HealthDrain', " Value 1: How much health to drain when opponent sings (0.5 recommended)\nValue2:Lowest Health Possible From Drain (0.01 recommened)"], 
 		['LinearSpin', "Value 1:  How long to tween for (in seconds)\nValue2: How big of a tween (in degrees)"], 
-		['LinearAlpha', "Value1: How long to tween for (in seconds)\nValue2: Target Transparency"]
+		['LinearAlpha', "Value1: How long to tween for (in seconds)\nValue2: Target Transparency"], 
+		['Opponent Fade', "Value1: Duration (0 = Instant)\nValue2: Target transparency value"], 
+		["LinearAlphaBF', " Value1: How long to tween for (in seconds)\nValue2: Target Transparency"]
 	];
 
 	var _file:FileReference;

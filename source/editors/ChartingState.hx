@@ -81,10 +81,12 @@ class ChartingState extends MusicBeatState
 		['Screen Shake', "Value 1: Camera shake\nValue 2: HUD shake\n\nEvery value works as the following example: \"1, 0.05\".\nThe first number (1) is the duration.\nThe second number (0.05) is the intensity."],
 		['Change Character', "Value 1: Character to change (Dad, BF, GF)\nValue 2: New character's name"], 
 		['Image Flash', " Value 1: its the name of the image\nValue 2: is how long it's there for"], 
-		['flipUI', " Value 1: Rotates the screen 180 degrees\nValue2: nothing"], 
+		['flipUI', " Value 1: Rotates the screen 180 degrees"], 
 		['bgchange',"Value 1: Name of the image\nValue2: the sprites tag"], 
 		['drain', "Value 1: How much health, half health is 1."], 
-		['HealthDrain', " Value 1: How much health to drain when opponent sings (0.5 recommended)\nValue2:Lowest Health Possible From Drain (0.01 recommened)"]
+		['HealthDrain', " Value 1: How much health to drain when opponent sings (0.5 recommended)\nValue2:Lowest Health Possible From Drain (0.01 recommened)"], 
+		['LinearSpin', "Value 1:  How long to tween for (in seconds)\nValue2: How big of a tween (in degrees)"], 
+		['LinearAlpha', "Value1: How long to tween for (in seconds)\nValue2: Target Transparency"]
 	];
 
 	var _file:FileReference;

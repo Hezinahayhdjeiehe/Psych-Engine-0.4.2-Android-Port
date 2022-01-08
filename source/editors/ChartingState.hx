@@ -89,7 +89,7 @@ class ChartingState extends MusicBeatState
 		['LinearAlpha', "Value1: How long to tween for (in seconds)\nValue2: Target Transparency"], 
 		['Opponent Fade', "Value1: Duration (0 = Instant)\nValue2: Target transparency value"], 
 		['LinearAlphaBF', " Value1: How long to tween for (in seconds)\nValue2: Target Transparency"], 
-		['Movingarrow', "Value1: note (0-7)\nValue2: value, y value, duration"], 
+		['MovingArrow', "Value1: note (0-7)\nValue2: Value 2: x value, y value, rotation, opacity (0-1), duration"], 
 		['ScreenPos', " Value1: Value 1: X, Y \nValue2: Value 2: time"]
 	];
 
